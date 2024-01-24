@@ -1,3 +1,6 @@
+
+@import './index.scss';
+
 .App {
   text-align: center;
 }
@@ -36,3 +39,32 @@
     transform: rotate(360deg);
   }
 }
+
+.header {
+ position: sticky;
+ width: 100%;
+ top:0;
+}
+
+.main {
+  width: 100%;
+  flex: 1;
+  padding-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: -1;
+  justify-content: space-around;
+
+  .card {
+    margin: 10px;
+  }
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: $light;
+  font-size: small;
+}
+

@@ -1,0 +1,20 @@
+
+$primary: #ffff80;
+$secondary:green;
+$dark: #300;
+$light: #fdd;
+$success:#0fa;
+$info: #555;
+$danger:red;
+$warning:yellow;
+
+@import '~bootstrap/scss/bootstrap.scss';
+
+
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    min-width: 100%;
+  }
