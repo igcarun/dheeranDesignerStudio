@@ -1,0 +1,19 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: calc(100% - 20%);
+}
+
+.frame {
+    width: 100%;
+}
+
+.carding {
+    width: 40%;
+    margin: 30px;
+}
+
+.carding p {
+    margin: 0px;
+}
