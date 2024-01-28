@@ -2,8 +2,10 @@ import React from 'react'
 import './about.scss'
 
 const About = () => {
+    
     return (
         <div className='about'>
+            
             <h3> About Dheeran Studios </h3>
 
             <p>Welcome to Dheeran Studios, where creativity meets innovation and design transforms dreams into reality. We are a passionate team of dedicated designers committed to pushing boundaries and redefining the world of aesthetics.
